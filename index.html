@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Friend 🌟</title>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  *{margin:0; padding:0; box-sizing:border-box;}
+  body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:20px;
+    color:#fff;
+    overflow-x:hidden;
+    text-align:center;
+    position:relative;
+    transition: background 0.5s ease;
+  }
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+
+    /* Darker gradient text for better readability */
+    background: linear-gradient(45deg, #6a1b9a, #c2185b); /* deep purple to dark magenta */
+    background-clip: text;            
+    -webkit-background-clip: text;    
+    -webkit-text-fill-color: transparent;  
+    color: transparent;               
+
+    animation: bounce 2s infinite;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); /* slightly stronger shadow */
+}
+
+
+
+  .subtitle{
+    font-size:1.1em;
+    color:#fff9;
+    margin-bottom:20px;
+    transition: color 0.3s ease;
+  }
+
+  .paragraph{
+    max-width:750px;
+    background: rgba(255,255,255,0.12);
+    padding:25px;
+    border-radius:18px;
+    line-height:1.8;
+    font-size:1em;
+    margin-bottom:25px;
+    text-align:left;
+    box-shadow:0 8px 25px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+  }
+
+  .paragraph p{
+    margin-bottom:15px;
+  }
+
+  .btn{
+    background: linear-gradient(135deg,#ff6a00,#ee0979);
+    border:none;
+    padding:12px 25px;
+    margin:10px;
+    font-size:1em;
+    color:#fff;
+    font-weight:600;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 15px rgba(0,0,0,0.2);
+    transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+  }
+  .btn:hover{
+    transform:translateY(-3px) scale(1.05);
+    box-shadow:0 6px 20px rgba(0,0,0,0.3);
+  }
+  .btn.active{
+    background: linear-gradient(135deg,#ee0979,#ff6a00);
+    transform:scale(1.05);
+  }
+
+  .message-box{
+    margin-top:20px;
+    background: rgba(255,255,255,0.15);
+    padding:20px;
+    border-radius:15px;
+    max-width:600px;
+    display:none;
+    animation:fadeIn 0.8s ease;
+    text-align:left;
+    transition: all 0.3s ease;
+  }
+
+  .wishes-list{
+    margin-top:15px;
+  }
+  .wish-item{
+    background: rgba(255,255,255,0.12);
+    padding:12px 15px;
+    border-radius:10px;
+    margin:8px 0;
+    font-size:0.95em;
+    animation:slideUp 0.6s ease;
+    transition: transform 0.3s, background 0.3s, box-shadow 0.3s;
+    cursor:default;
+  }
+  .wish-item:hover{
+    transform: scale(1.05);
+    background: rgba(255,255,255,0.25);
+    box-shadow:0 6px 15px rgba(0,0,0,0.2);
+  }
+
+  footer{
+    margin-top:25px;
+    font-size:0.95em;
+    color:#fff;
+    transition: color 0.3s ease;
+  }
+
+  .emoji{
+    position:absolute;
+    font-size:1.5em;
+    animation:floatEmoji linear infinite;
+    user-select:none;
+    pointer-events:none;
+    transition: transform 0.5s ease;
+  }
+
+  @keyframes bounce{
+    0%,100%{transform:translateY(0);}
+    50%{transform:translateY(-8px);}
+  }
+  @keyframes fadeIn{
+    from{opacity:0; transform:scale(0.9);}
+    to{opacity:1; transform:scale(1);}
+  }
+  @keyframes slideUp{
+    from{opacity:0; transform:translateY(20px);}
+    to{opacity:1; transform:translateY(0);}
+  }
+  @keyframes floatEmoji{
+    0%{transform:translateY(100vh) rotate(0deg); opacity:1;}
+    100%{transform:translateY(-50vh) rotate(360deg); opacity:0;}
+  }
+
+  @media(max-width:480px){
+    h1{font-size:2em;}
+    .paragraph{padding:20px; font-size:0.95em;}
+    .btn{padding:10px 20px; font-size:0.95em;}
+    .wish-item{font-size:0.9em;}
+  }
+</style>
+</head>
+<body>
+
+<h1>🌸 Best Friend 🌸</h1>
+<div class="subtitle">Friends like you are rare and priceless ✨</div>
+
+<div class="paragraph">
+  <p>Happy birthday to one of the most incredible and inspiring people I’ve ever met. From our tuition days to the countless times we laughed until our stomachs hurt, every memory with you is a treasure I’ll always cherish. Your presence brings so much light, joy, and positivity wherever you go, and I’m endlessly grateful for your care, support, and the motivation you’ve always given me.</p>
+  
+  <p>Today isn’t just about your birthday — it’s about celebrating the remarkable person you are. Your laughter, kindness, and sincerity touch everyone around you, making people feel seen, valued, and appreciated. You have a way of turning ordinary moments into unforgettable memories, and your energy inspires everyone lucky enough to know you.</p>
+  
+  <p>You’re not just my best friend — while you may be an option in everyone else’s life, in mine, you are the one and only. You are brave, resilient, and face every challenge with unwavering courage, no matter what society or the world says. May Mahadev bless you with endless happiness, wisdom, and positivity in every step of your journey.</p>
+
+  <p>Whenever you need me, I’ll always be here — just one call away, ready to listen, support, and laugh with you. Keep being your amazing self — kind, inspiring, full of life, and fearless. You are truly remarkable, deeply valued, and I feel so fortunate to have you as my friend.</p>
+
+  <p>Our friendship is one that will last forever — through every laugh, every challenge, and every adventure. No matter where life takes us, I know we’ll always be there for each other, supporting, cheering, and celebrating one another. Here’s to a bond that grows stronger every day, and memories that we’ll treasure for a lifetime. Friendship like ours is timeless, boundless, and unforgettable.</p>
+
+  <br><br><b>Happy Bornday Vrunda! 🎉💖</b>
+</div>
+
+<button class="btn" id="celebrateBtn" onclick="toggleMessage('celebrate')">🎊 Hooray! 🎊</button>
+<button class="btn" id="wishesBtn" onclick="toggleMessage('wishes')">💌 Special Wishes 💌</button>
+
+<div id="celebrate" class="message-box">
+ <b>Happy Special Day Vrunda! 🎉💖</b><br>
+May Mahadev shower you with endless blessings, boundless joy, and wonderful adventures. ✨  
+May your days be filled with laughter, new experiences, and memorable moments that make your heart smile.  
+Always keep shining with your incredible energy, courage, and kindness — the world is brighter because of you.  
+You’re an extraordinary friend, and I feel truly grateful to have you in my life. 🌸🙏
+</p>
+</div>
+
+<div id="wishes" class="message-box">
+  <h3>🎈 Heartfelt Wishes for an Amazing Friend 🎈</h3>
+  <div class="wishes-list">
+    <div class="wish-item">🌟 May your days overflow with laughter, love, and happiness.</div>
+    <div class="wish-item">💖 May every dream you have come true effortlessly.</div>
+    <div class="wish-item">🚀 May you find success, adventure, and joy in everything you do.</div>
+    <div class="wish-item">😊 Cherish every memory and create countless new ones.</div>
+    <div class="wish-item">🌈 May your life shine brighter than any rainbow.</div>
+    <div class="wish-item">✨ Mahadev bless you with courage, strength, and peace.</div>
+    <div class="wish-item">🎂 Keep shining, laughing, and inspiring everyone you meet.</div>
+  </div>
+</div>
+
+<footer>
+  — Your best friend, Davin 💙
+</footer>
+
+<script>
+  function toggleMessage(id){
+    const box = document.getElementById(id);
+    const celebrateBtn = document.getElementById('celebrateBtn');
+    const wishesBtn = document.getElementById('wishesBtn');
+    if(box.style.display==="block"){
+      box.style.display="none";
+      celebrateBtn.classList.remove('active');
+      wishesBtn.classList.remove('active');
+    }else{
+      document.querySelectorAll('.message-box').forEach(b=>b.style.display="none");
+      box.style.display="block";
+      celebrateBtn.classList.remove('active');
+      wishesBtn.classList.remove('active');
+      if(id==='celebrate') celebrateBtn.classList.add('active');
+      if(id==='wishes') wishesBtn.classList.add('active');
+    }
+  }
+
+  const emojis=['🎉','🎂','✨','💖','🌟','🎈','💫','🥳','😊','🌸','💛'];
+  function createEmoji(){
+    const e=document.createElement('div');
+    e.className='emoji';
+    e.innerText=emojis[Math.floor(Math.random()*emojis.length)];
+    e.style.left=Math.random()*100+'%';
+    e.style.fontSize=(Math.random()*20+15)+'px';
+    e.style.animationDuration=(Math.random()*6+6)+'s';
+    document.body.appendChild(e);
+    setTimeout(()=> e.remove(),12000);
+  }
+  setInterval(createEmoji,800);
+</script>
+
+</body>
+</html>
